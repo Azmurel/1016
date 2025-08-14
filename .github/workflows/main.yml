@@ -17,7 +17,7 @@ jobs:
       run: echo "IMAGE_NAME=${GITHUB_REPOSITORY@L}" >> ${GITHUB_ENV}
 
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/azmurel
 
     - name: Read version from file
       id: version
